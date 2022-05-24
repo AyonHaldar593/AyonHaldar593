@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-07T16:04:13.776Z",
+        "line": 3,
+        "name": "Check Login is successful with valid username and password",
+        "description": "",
+        "id": "to-test-login-of-testyou-app;check-login-is-successful-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14377849700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in login page",
+            "match": {
+              "location": "StepDefi.LoginTest.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 384786600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "StepDefi.LoginTest.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14101367900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the loging button",
+            "match": {
+              "location": "StepDefi.LoginTest.user_clicks_on_the_loging_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206881400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to login page",
+            "match": {
+              "location": "StepDefi.LoginTest.user_is_navigated_to_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test login of TestYou app",
+    "description": "",
+    "id": "to-test-login-of-testyou-app",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": []
+  }
+]

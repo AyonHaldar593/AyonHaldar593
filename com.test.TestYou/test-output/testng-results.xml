@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-07T22:24:09 IST" name="Default suite" finished-at="2022-01-07T22:24:35 IST" duration-ms="26023">
+    <groups>
+    </groups>
+    <test started-at="2022-01-07T22:24:09 IST" name="Default test" finished-at="2022-01-07T22:24:35 IST" duration-ms="26023">
+      <class name="DolaG.TestCasesID_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DolaG.TestCasesID_01@60d8c9b7]" started-at="2022-01-07T22:24:09 IST" name="setup" finished-at="2022-01-07T22:24:32 IST" duration-ms="22595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:0, instance:DolaG.TestCasesID_01@60d8c9b7]" started-at="2022-01-07T22:24:32 IST" name="testLogin" finished-at="2022-01-07T22:24:35 IST" duration-ms="3331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- DolaG.TestCasesID_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
